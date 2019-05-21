@@ -67,7 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
         element.capitalize!
       end
         
-      puts "#{days.join(' ')}: #{day.split capitalize}: #{supply.join(', ')}"
+      puts "#{days.join(' ')}: #{supply.join(', ')}"
     end
   end
   
